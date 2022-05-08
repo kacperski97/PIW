@@ -1,0 +1,34 @@
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+span {
+	padding: 10px 10px 10px 10px;
+}
+
+span:hover {
+	transition: 0.2s;
+	background-color: red;
+}
+
+ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 10px 10px 10px 10px;
+	background: #eee;
+	font-size: 24px;
+  
+	user-select: none;
+}
+
+ul li:hover {
+	transition: 0.2s;
+	background: #ddd;
+}
+
+ul li.checked {
+	background: #888;
+	color: #fff;
+	text-decoration: line-through;
+}
