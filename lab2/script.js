@@ -66,7 +66,4 @@ $(document).ready(function(){
 			alert("No object to restore");
 		}
 	});
-	
-	var modal = $('.modalBox');
-	modal.hide();
 });
